@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     background: url("./espadazoombackground.webp");
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
@@ -43,10 +44,12 @@ html {
     position: relative;
     /*perspective: 20px;*/
     background:url("./espadazoombackground.webp");
+    background-repeat: no-repeat;
   }
   
   .suggestions li {
     background:url("./espadazoombackground.webp");
+    background-repeat: no-repeat;
     list-style: none;
     border-bottom: 1px solid #ff4adc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
